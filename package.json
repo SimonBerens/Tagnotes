@@ -1,7 +1,9 @@
 {
     "author": "",
+    "mode": "development",
     "dependencies": {
         "@emotion/core": "^10.0.5",
+        "@emotion/styled": "^10.0.5",
         "@slate-editor/alignment-plugin": "^5.1.0",
         "@slate-editor/bold-plugin": "^5.1.0",
         "@slate-editor/color-plugin": "^5.1.0",
@@ -330,22 +332,6 @@
             "resolved": "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz",
             "version": "6.5.2"
         },
-        "range-parser": {
-            "integrity": "sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=",
-            "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz",
-            "version": "1.2.0"
-        },
-        "raw-body": {
-            "integrity": "sha512-9esiElv1BrZoI3rCDuOuKCBRbuApGGaDPQfjSflGxdy4oyzqghxu6klEkkVIvBje+FF0BX9coEv8KqW6X/7njw==",
-            "requires": {
-                "bytes": "3.0.0",
-                "http-errors": "1.6.3",
-                "iconv-lite": "0.4.23",
-                "unpipe": "1.0.0"
-            },
-            "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-2.3.3.tgz",
-            "version": "2.3.3"
-        },
         "react": "^16.7.0",
         "react-bootstrap": "^0.32.1",
         "react-dom": "^16.7.0",
@@ -353,36 +339,6 @@
         "react-router": "^4.3.1",
         "react-router-bootstrap": "^0.24.4",
         "react-router-dom": "^4.3.1",
-        "safe-buffer": {
-            "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
-            "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
-            "version": "5.1.2"
-        },
-        "safer-buffer": {
-            "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
-            "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
-            "version": "2.1.2"
-        },
-        "send": {
-            "integrity": "sha512-E64YFPUssFHEFBvpbbjr44NCLtI1AohxQ8ZSiJjQLskAdKuriYEP6VyGEsRDH8ScozGpkaX1BGvhanqCwkcEZw==",
-            "requires": {
-                "debug": "2.6.9",
-                "depd": "1.1.2",
-                "destroy": "1.0.4",
-                "encodeurl": "1.0.2",
-                "escape-html": "1.0.3",
-                "etag": "1.8.1",
-                "fresh": "0.5.2",
-                "http-errors": "1.6.3",
-                "mime": "1.4.1",
-                "ms": "2.0.0",
-                "on-finished": "2.3.0",
-                "range-parser": "1.2.0",
-                "statuses": "1.4.0"
-            },
-            "resolved": "https://registry.npmjs.org/send/-/send-0.16.2.tgz",
-            "version": "0.16.2"
-        },
         "serve-static": {
             "integrity": "sha512-p/tdJrO4U387R9oMjb1oj7qSMaMfmOyd4j9hOFoxZe2baQszgHcSWjuya/CiT5kgZZKRudHNOA0pYXOl8rQ5nw==",
             "requires": {
@@ -394,17 +350,11 @@
             "resolved": "https://registry.npmjs.org/serve-static/-/serve-static-1.13.2.tgz",
             "version": "1.13.2"
         },
-        "setprototypeof": {
-            "integrity": "sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==",
-            "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.0.tgz",
-            "version": "1.1.0"
-        },
         "simplebar": "^2.6.1",
         "simplebar-react": "0.1.0-beta.5",
         "slate": "^0.44.9",
         "slate-base64-serializer": "^0.2.94",
         "slate-drop-or-paste-images": "^0.9.1",
-        "slate-editor": "^5.1.0",
         "slate-hotkeys": "^0.2.8",
         "slate-html-serializer": "^0.7.33",
         "slate-hyperscript": "^0.11.24",
@@ -416,15 +366,7 @@
             "resolved": "https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz",
             "version": "1.4.0"
         },
-        "type-is": {
-            "integrity": "sha512-HRkVv/5qY2G6I8iab9cI7v1bOIdhm94dVjQCPFElW9W+3GeDOSHmy2EBYe4VTApuzolPcmgFTN3ftVJRKR2J9Q==",
-            "requires": {
-                "media-typer": "0.3.0",
-                "mime-types": "2.1.21"
-            },
-            "resolved": "https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz",
-            "version": "1.6.16"
-        },
+        "uglifyjs-webpack-plugin": "^2.1.0",
         "unpipe": {
             "integrity": "sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=",
             "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
@@ -435,20 +377,16 @@
             "resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
             "version": "1.0.1"
         },
-        "vary": {
-            "integrity": "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=",
-            "resolved": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
-            "version": "1.1.2"
-        },
         "webpack": "^4.12.0",
-        "webpack-cli": "^3.0.3",
-        "webpack-dev-server": "^3.1.10"
+        "webpack-dev-server": "^3.1.13"
     },
     "description": "the front end for tagnotes.org",
     "devDependencies": {
         "css-loader": "^0.28.11",
         "html-webpack-plugin": "^3.2.0",
-        "style-loader": "^0.21.0"
+        "style-loader": "^0.21.0",
+        "webpack-bundle-analyzer": "^3.0.3",
+        "webpack-cli": "^3.1.2"
     },
     "env": "production",
     "license": "ISC",
@@ -457,7 +395,7 @@
     "name": "tagnotes",
     "requires": true,
     "scripts": {
-        "dev": "webpack-dev-server --hot --inline --content-base src",
+        "dev": "webpack-dev-server --hot --inline --mode production --content-base src",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "version": "0.0.0"
